@@ -28,6 +28,20 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-264",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 416.5, 357.0, 46.0, 18.0 ],
+					"text" : "line $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-250",
 					"maxclass" : "gswitch",
 					"numinlets" : 3,
@@ -326,21 +340,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-167",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 190.0, 89.0, 150.0, 33.0 ],
-					"text" : "swap 1 & 2, then step through other partners"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-164",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -549,8 +548,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 172.5, 49.5, 150.0, 33.0 ],
-					"text" : "still need to check for \"partners\""
+					"patching_rect" : [ 425.5, 418.0, 150.0, 33.0 ],
+					"text" : "Needs to combine santa w/ child."
 				}
 
 			}
@@ -974,6 +973,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-259", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-100", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-264", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-100", 0 ]
@@ -1535,6 +1543,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-259", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-53", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-264", 0 ]
 				}
 
 			}
