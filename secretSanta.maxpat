@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 4.0, 44.0, 956.0, 678.0 ],
+		"rect" : [ 4.0, 44.0, 1510.0, 1110.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -89,7 +89,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 446.0, 977.0, 74.0, 20.0 ],
+					"patching_rect" : [ 427.0, 999.0, 74.0, 20.0 ],
 					"text" : "prepend To:"
 				}
 
@@ -103,7 +103,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 446.0, 910.0, 89.0, 20.0 ],
+					"patching_rect" : [ 427.0, 932.0, 89.0, 20.0 ],
 					"text" : "prepend From:"
 				}
 
@@ -117,7 +117,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 446.0, 1010.5, 165.0, 20.0 ],
+					"patching_rect" : [ 427.0, 1032.5, 165.0, 20.0 ],
 					"text" : "prepend Please get a gift for:"
 				}
 
@@ -131,7 +131,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 446.0, 825.0, 113.0, 20.0 ],
+					"patching_rect" : [ 427.0, 847.0, 113.0, 20.0 ],
 					"text" : "prepend RCPT TO:"
 				}
 
@@ -145,7 +145,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 804.0, 1010.5, 110.0, 20.0 ],
+					"patching_rect" : [ 785.0, 1032.5, 110.0, 20.0 ],
 					"text" : "this is child's name"
 				}
 
@@ -160,7 +160,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 482.0, 1160.5, 255.0, 47.0 ],
+					"patching_rect" : [ 463.0, 1182.5, 255.0, 47.0 ],
 					"text" : "Need to combine:\nRCPT TO: && actual Secret Santa's email\nHello world! && child's name"
 				}
 
@@ -174,7 +174,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 909.0, 825.0, 150.0, 20.0 ],
+					"patching_rect" : [ 890.0, 847.0, 150.0, 20.0 ],
 					"text" : "this is secret santa"
 				}
 
@@ -188,7 +188,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 827.0, 765.0, 337.0, 20.0 ],
+					"patching_rect" : [ 808.0, 787.0, 337.0, 20.0 ],
 					"text" : "Use this subpatch in order to create your authentication string"
 				}
 
@@ -202,7 +202,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 770.0, 825.0, 127.0, 20.0 ],
+					"patching_rect" : [ 751.0, 847.0, 127.0, 20.0 ],
 					"text" : "Setup e-mail recipient"
 				}
 
@@ -217,7 +217,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 152.0, 1095.0, 289.0, 87.0 ],
+					"patching_rect" : [ 133.0, 1117.0, 289.0, 87.0 ],
 					"text" : "Depending on your mail server's behaviour, after sending the QUIT command (which ends your current SMTP session) it might keep your connection open, in which case you don't need to 'connect' again. Otherwise, you'll need to connect before each new SMTP session."
 				}
 
@@ -232,7 +232,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 152.0, 990.0, 289.0, 87.0 ],
+					"patching_rect" : [ 133.0, 1012.0, 289.0, 87.0 ],
 					"text" : "First, you'll need to connect to your mail server with the 'connect' message in the top left corner. Then you'll have to go through the messages on the right side from up to bottom, and wait for the server response (appearing in the Max Window) each time after you sent a new message to the server."
 				}
 
@@ -247,7 +247,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 152.0, 930.0, 300.0, 47.0 ],
+					"patching_rect" : [ 133.0, 952.0, 300.0, 47.0 ],
 					"text" : "To use this patch, you'll need to set up all the addresses and other data that I just entered for demonstration purposes (like mail.server.address etc.)"
 				}
 
@@ -541,7 +541,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 707.0, 765.0, 116.0, 20.0 ],
+					"patching_rect" : [ 688.0, 787.0, 116.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -568,7 +568,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 272.0, 705.0, 165.0, 20.0 ],
+					"patching_rect" : [ 253.0, 727.0, 165.0, 20.0 ],
 					"text" : "Manage connection to server"
 				}
 
@@ -582,7 +582,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "list", "int" ],
-					"patching_rect" : [ 137.0, 825.0, 251.0, 20.0 ],
+					"patching_rect" : [ 118.0, 847.0, 251.0, 20.0 ],
 					"text" : "sadam.tcpClient smtp-server.nycap.rr.com 25"
 				}
 
@@ -596,7 +596,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 527.0, 1100.5, 113.0, 20.0 ],
+					"patching_rect" : [ 508.0, 1122.5, 113.0, 20.0 ],
 					"text" : "Finish your session"
 				}
 
@@ -609,7 +609,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 482.0, 1130.5, 85.0, 20.0 ],
+					"patching_rect" : [ 463.0, 1152.5, 85.0, 20.0 ],
 					"text" : "s #0oneCRLF"
 				}
 
@@ -623,7 +623,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 482.0, 1100.5, 39.0, 18.0 ],
+					"patching_rect" : [ 463.0, 1122.5, 39.0, 18.0 ],
 					"text" : "QUIT"
 				}
 
@@ -637,7 +637,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 527.0, 885.0, 169.0, 20.0 ],
+					"patching_rect" : [ 508.0, 907.0, 169.0, 20.0 ],
 					"text" : "Start composing the message"
 				}
 
@@ -651,7 +651,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 527.0, 1040.5, 230.0, 20.0 ],
+					"patching_rect" : [ 508.0, 1062.5, 230.0, 20.0 ],
 					"text" : "This actually signals the end of your mail."
 				}
 
@@ -664,7 +664,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 482.0, 1070.5, 85.0, 20.0 ],
+					"patching_rect" : [ 463.0, 1092.5, 85.0, 20.0 ],
 					"text" : "s #0oneCRLF"
 				}
 
@@ -677,7 +677,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 482.0, 855.0, 85.0, 20.0 ],
+					"patching_rect" : [ 463.0, 877.0, 85.0, 20.0 ],
 					"text" : "s #0oneCRLF"
 				}
 
@@ -691,7 +691,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 742.5, 795.0, 118.0, 20.0 ],
+					"patching_rect" : [ 723.5, 817.0, 118.0, 20.0 ],
 					"text" : "Setup e-mail sender"
 				}
 
@@ -705,7 +705,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 587.0, 705.0, 107.0, 20.0 ],
+					"patching_rect" : [ 568.0, 727.0, 107.0, 20.0 ],
 					"text" : "Init SMTP session"
 				}
 
@@ -719,7 +719,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 317.0, 735.0, 87.0, 20.0 ],
+					"patching_rect" : [ 298.0, 757.0, 87.0, 20.0 ],
 					"text" : "r #0twoCRLFs"
 				}
 
@@ -733,7 +733,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 212.0, 735.0, 83.0, 20.0 ],
+					"patching_rect" : [ 193.0, 757.0, 83.0, 20.0 ],
 					"text" : "r #0oneCRLF"
 				}
 
@@ -746,7 +746,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 707.0, 1010.5, 89.0, 20.0 ],
+					"patching_rect" : [ 688.0, 1032.5, 89.0, 20.0 ],
 					"text" : "s #0twoCRLFs"
 				}
 
@@ -759,7 +759,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 482.0, 746.0, 85.0, 20.0 ],
+					"patching_rect" : [ 463.0, 768.0, 85.0, 20.0 ],
 					"text" : "s #0oneCRLF"
 				}
 
@@ -772,7 +772,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 197.0, 855.0, 69.0, 20.0 ],
+					"patching_rect" : [ 178.0, 877.0, 69.0, 20.0 ],
 					"text" : "print status"
 				}
 
@@ -786,7 +786,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 482.0, 1040.5, 32.5, 18.0 ],
+					"patching_rect" : [ 463.0, 1062.5, 32.5, 18.0 ],
 					"text" : "."
 				}
 
@@ -800,7 +800,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 923.0, 1010.5, 76.0, 18.0 ],
+					"patching_rect" : [ 904.0, 1032.5, 76.0, 18.0 ],
 					"text" : "Hello World!"
 				}
 
@@ -814,7 +814,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 317.0, 795.0, 117.0, 20.0 ],
+					"patching_rect" : [ 298.0, 817.0, 117.0, 20.0 ],
 					"text" : "append 13 10 13 10"
 				}
 
@@ -828,7 +828,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "list" ],
-					"patching_rect" : [ 317.0, 765.0, 46.0, 20.0 ],
+					"patching_rect" : [ 298.0, 787.0, 46.0, 20.0 ],
 					"text" : "atoi"
 				}
 
@@ -842,7 +842,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 482.0, 944.5, 219.0, 18.0 ],
+					"patching_rect" : [ 463.0, 966.5, 219.0, 18.0 ],
 					"text" : "Subject: Secret Santa! *TOP SECRET*"
 				}
 
@@ -856,7 +856,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 482.0, 885.0, 41.0, 18.0 ],
+					"patching_rect" : [ 463.0, 907.0, 41.0, 18.0 ],
 					"text" : "DATA"
 				}
 
@@ -870,7 +870,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 575.0, 825.0, 183.0, 18.0 ],
+					"patching_rect" : [ 556.0, 847.0, 183.0, 18.0 ],
 					"text" : "RCPT TO: zer0her0@gmail.com"
 				}
 
@@ -884,7 +884,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 482.0, 795.0, 236.0, 18.0 ],
+					"patching_rect" : [ 463.0, 817.0, 236.0, 18.0 ],
 					"text" : "MAIL FROM: andrew.meier@nycap.rr.com"
 				}
 
@@ -898,7 +898,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 482.0, 705.0, 104.0, 18.0 ],
+					"patching_rect" : [ 463.0, 727.0, 104.0, 18.0 ],
 					"text" : "EHLO my.domain"
 				}
 
@@ -912,7 +912,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 212.0, 795.0, 84.0, 20.0 ],
+					"patching_rect" : [ 193.0, 817.0, 84.0, 20.0 ],
 					"text" : "append 13 10"
 				}
 
@@ -926,7 +926,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "list" ],
-					"patching_rect" : [ 212.0, 765.0, 46.0, 20.0 ],
+					"patching_rect" : [ 193.0, 787.0, 46.0, 20.0 ],
 					"text" : "atoi"
 				}
 
@@ -940,7 +940,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 197.0, 705.0, 68.0, 18.0 ],
+					"patching_rect" : [ 178.0, 727.0, 68.0, 18.0 ],
 					"text" : "disconnect"
 				}
 
@@ -953,7 +953,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 137.0, 885.0, 87.0, 20.0 ],
+					"patching_rect" : [ 118.0, 907.0, 87.0, 20.0 ],
 					"text" : "print response"
 				}
 
@@ -967,7 +967,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 137.0, 705.0, 53.0, 18.0 ],
+					"patching_rect" : [ 118.0, 727.0, 53.0, 18.0 ],
 					"text" : "connect"
 				}
 
@@ -981,7 +981,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 137.0, 855.0, 46.0, 20.0 ],
+					"patching_rect" : [ 118.0, 877.0, 46.0, 20.0 ],
 					"text" : "itoa"
 				}
 
@@ -2371,7 +2371,7 @@
 					"destination" : [ "obj-30", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 491.5, 968.0, 716.5, 968.0 ],
+					"midpoints" : [ 472.5, 990.0, 697.5, 990.0 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -2381,7 +2381,7 @@
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 326.5, 819.5, 146.5, 819.5 ],
+					"midpoints" : [ 307.5, 841.5, 127.5, 841.5 ],
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -2814,7 +2814,7 @@
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 221.5, 819.5, 146.5, 819.5 ],
+					"midpoints" : [ 202.5, 841.5, 127.5, 841.5 ],
 					"source" : [ "obj-47", 0 ]
 				}
 
@@ -2833,7 +2833,7 @@
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 206.5, 728.5, 146.5, 728.5 ],
+					"midpoints" : [ 187.5, 750.5, 127.5, 750.5 ],
 					"source" : [ "obj-49", 0 ]
 				}
 
@@ -3284,7 +3284,7 @@
 					"destination" : [ "obj-28", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 378.5, 849.5, 206.5, 849.5 ],
+					"midpoints" : [ 359.5, 871.5, 187.5, 871.5 ],
 					"source" : [ "obj-9", 1 ]
 				}
 
